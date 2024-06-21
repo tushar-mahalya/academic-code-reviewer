@@ -1,0 +1,6 @@
+langchain == 0.2.5
+langchain-community == 0.2.5
+pytube == 15.0.0
+tiktoken == 0.7.0
+youtube-transcript-api == 0.6.2
+openai==1.35.3
