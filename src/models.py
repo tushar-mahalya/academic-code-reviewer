@@ -13,7 +13,7 @@ from src.prompts import map_summary_prompt, reduce_summary_prompt, code_comparis
 class GenerativeFeatures:
     def __init__(self):
         # LLM Model
-        self.llm = OpenAI(temperature=0.1)
+        self.llm = OpenAI(temperature=0.7)
 
         # Intrinsically used Prompts
         self.map_summary_prompt = map_summary_prompt
